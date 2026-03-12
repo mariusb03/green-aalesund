@@ -1,0 +1,66 @@
+/* home.css */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 34px;
+    align-items: start;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .stat-card {
+    padding: 22px;
+  }
+  
+  .stat-card strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #203b2b;
+    font-size: 2rem;
+    letter-spacing: -0.04em;
+  }
+  
+  .info-strip {
+    padding: 18px 0;
+    border-top: 1px solid rgba(32, 59, 43, 0.08);
+    border-bottom: 1px solid rgba(32, 59, 43, 0.08);
+    background: rgba(255, 255, 255, 0.38);
+  }
+  
+  .info-strip-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .info-strip-inner p {
+    margin: 0;
+    text-align: center;
+    color: #35523e;
+    font-weight: 700;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  
+  .service-card {
+    padding: 26px;
+  }
+  
+  .service-pill {
+    display: inline-flex;
+    margin-bottom: 14px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(87, 124, 88, 0.12);
+    color: #35523e;
+    font-size: 0.82rem;
+    font-weight: 700;
+  }

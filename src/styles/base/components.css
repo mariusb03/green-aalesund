@@ -1,0 +1,141 @@
+/* components.css */
+.page-hero {
+  padding: 48px 0 12px;
+}
+
+.page-hero-compact {
+  padding-bottom: 0;
+}
+
+.page-hero-title {
+  max-width: 700px;
+  text-align: left;
+}
+
+.eyebrow,
+.section-label {
+  margin-bottom: 14px;
+  color: #5c7e5d;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page-hero h1,
+.section h2,
+.site-footer h2,
+.contact-card h2 {
+  margin: 0;
+  color: #244e30;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  max-width: 900px;
+}
+
+.page-hero-text,
+.section-heading p,
+.section p,
+.site-footer p,
+.feature-item p,
+.service-card p,
+.stat-card span,
+.donation-box li,
+.boxed-note p,
+.contact-card p {
+  color: #4d5f52;
+  line-height: 1.75;
+}
+
+.page-hero-text {
+  max-width: 720px;
+  margin-top: 14px;
+  font-size: 1.06rem;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0 0 20px;
+}
+
+.stat-card,
+.feature-panel,
+.service-card,
+.donation-box,
+.contact-card {
+  border-radius: 28px;
+  border: 3px solid #244e30;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 24px 60px rgba(38, 52, 40, 0.08);
+}
+
+.feature-panel,
+.donation-box,
+.contact-card {
+  padding: 30px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 18px;
+  padding: 18px 0;
+}
+
+.feature-item + .feature-item {
+  border-top: 1px solid rgba(32, 59, 43, 0.08);
+}
+
+.feature-item span {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(87, 124, 88, 0.12);
+  color: #35523e;
+  font-weight: 800;
+}
+
+.feature-item h3,
+.service-card h3,
+.donation-box h3,
+.footer-links h3 {
+  margin: 0 0 10px;
+  color: #132117;
+  font-size: 1.18rem;
+  letter-spacing: -0.03em;
+}
+
+.feature-item p {
+  margin: 0;
+}
+
+.service-card a,
+.feature-item a,
+.contact-card a {
+  color: #203b2b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.boxed-note {
+  margin-top: 22px;
+  padding: 18px;
+  border-radius: 20px;
+  background: rgba(95, 133, 99, 0.08);
+}
+
+.boxed-note strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #203b2b;
+}
