@@ -1,9 +1,11 @@
-{/* Home.jsx */}
+{
+  /* Home.jsx */
+}
 import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero";
 import SectionIntro from "../components/SectionIntro";
 import { siteContent } from "../data/siteContent";
-import '../styles/pages/home.css'
+import "../styles/pages/home.css";
 
 function Home() {
   return (
@@ -88,11 +90,7 @@ function Home() {
       </section>
 
       <section className="info-strip">
-        <div className="container info-strip-inner">
-          <p>Secondhand-butikk i Ålesund</p>
-          <p>Shopify beholdes som nettbutikk</p>
-          <p>Instagram og TikTok løftes tydelig frem</p>
-        </div>
+        <div className="container info-strip-inner"></div>
       </section>
 
       <section className="section section-soft">
@@ -103,12 +101,12 @@ function Home() {
             text={siteContent.homeIntro.text1}
           />
 
-          <div className="two-column">
-            <div>
+          <div className="home-intro-content">
+            <div className="home-intro-text">
               <p>{siteContent.homeIntro.text2}</p>
             </div>
 
-            <div className="services-grid">
+            <div className="services-grid services-grid-wide">
               <article className="service-card">
                 <span className="service-pill">Butikk</span>
                 <h3>Gjenbruk av klær</h3>
