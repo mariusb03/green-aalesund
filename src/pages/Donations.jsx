@@ -50,8 +50,7 @@ function Donations() {
             <div className="mt-6 rounded-[20px] bg-[rgba(95,133,99,0.08)] p-[18px]">
               <strong className="mb-2 block text-[#244e30]">Takk for at du bidrar!</strong>
               <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                Her kan du senere legge inn mer detaljert informasjon om hva som tas imot og
-                eventuelle kvalitetskrav.
+                !TODO! Kanskje detaljert informasjon om hva som tas imot og eventuelle kvalitetskrav?
               </p>
             </div>
           </div>

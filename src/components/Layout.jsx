@@ -109,7 +109,7 @@ function Layout() {
                 className="mb-3 block font-bold text-[#244e30] no-underline"
                 href="mailto:post@greenaalesund.no"
               >
-                post@greenaalesund.no
+                E-post
               </a>
               <a
                 className="block font-bold text-[#244e30] no-underline"
@@ -117,7 +117,7 @@ function Layout() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Shopify-butikk
+                Nettbutikk
               </a>
             </div>
           </div>

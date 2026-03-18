@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import PageHero from '../components/PageHero'
+import { Link } from "react-router-dom";
+import PageHero from "../components/PageHero";
 
 function EstateClearance() {
   return (
@@ -9,8 +9,10 @@ function EstateClearance() {
         eyebrow="Tømming og dødsbo"
         title={
           <span className="font-black">
-            Tømming og rydding av{' '}
-            <span className="text-[1.08em] text-[#3f6b49]">boliger og dødsbo</span>
+            Tømming og rydding av{" "}
+            <span className="text-[1.08em] text-[#3f6b49]">
+              boliger og dødsbo
+            </span>
           </span>
         }
         text="Green Ålesund tilbyr profesjonell tømming og rydding av boliger og dødsbo."
@@ -32,8 +34,7 @@ function EstateClearance() {
             </p>
 
             <p className="leading-7 font-semibold text-[#244e30]">
-              Denne delen av nettsiden bør gi et rolig og tillitsvekkende inntrykk, og gjøre
-              det enkelt å ta kontakt for en uforpliktende samtale.
+              !TODO! Mer info
             </p>
           </div>
 
@@ -47,7 +48,7 @@ function EstateClearance() {
                   Respektfull prosess
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  Tjenesten bør presenteres på en rolig og tillitsvekkende måte.
+                  !TODO! Mer info
                 </p>
               </div>
             </div>
@@ -61,7 +62,7 @@ function EstateClearance() {
                   Omtanke i hele oppdraget
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  Språket på siden bør være varmt, profesjonelt og menneskelig.
+                  !TODO! Mer info
                 </p>
               </div>
             </div>
@@ -75,7 +76,7 @@ function EstateClearance() {
                   Enkel kontakt
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  Gjør det lett å sende e-post og ta en uforpliktende henvendelse.
+                  !TODO! Mer info
                 </p>
               </div>
             </div>
@@ -94,7 +95,7 @@ function EstateClearance() {
 
       <section className="border-y border-[rgba(32,59,43,0.08)] bg-[#244e30] px-0 py-[18px]"></section>
     </>
-  )
+  );
 }
 
-export default EstateClearance
+export default EstateClearance;

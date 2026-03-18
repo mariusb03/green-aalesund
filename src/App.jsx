@@ -1,5 +1,6 @@
 {/* App.jsx */}
 import { Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -9,15 +10,19 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="om-oss" element={<About />} />
-        <Route path="donasjoner" element={<Donations />} />
-        <Route path="tomming-dodsbo" element={<EstateClearance />} />
-        <Route path="kontakt" element={<Contact />} />
-      </Route>
-    </Routes>
+    <>
+      <ScrollToTop />
+
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="om-oss" element={<About />} />
+          <Route path="donasjoner" element={<Donations />} />
+          <Route path="tomming-dodsbo" element={<EstateClearance />} />
+          <Route path="kontakt" element={<Contact />} />
+        </Route>
+      </Routes>
+    </>
   )
 }
 
