@@ -7,12 +7,14 @@ function Layout() {
         <div className="mx-auto flex min-h-[78px] w-[min(1160px,calc(100%-40px))] items-center justify-between gap-6">
           <NavLink
             to="/"
-            className="inline-flex items-center gap-3 font-bold text-[#f6f1e8] no-underline"
+            className="inline-flex items-center no-underline"
+            aria-label="Green Ålesund hjem"
           >
-            <span className="grid h-11 w-11 place-items-center rounded-2xl bg-linear-to-br from-[#2f5b3f] to-[#678567] text-[#f6f1e8] shadow-[0_14px_30px_rgba(47,91,63,0.18)]">
-              G
-            </span>
-            <span className="text-[#f6f1e8] tracking-[-0.02em]">Green Ålesund</span>
+            <img
+              src="/GALogo.svg"
+              alt="Green Ålesund"
+              className="h-20 w-auto"
+            />
           </NavLink>
 
           <nav
