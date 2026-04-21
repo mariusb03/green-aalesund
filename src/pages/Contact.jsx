@@ -11,7 +11,7 @@ function Contact() {
             Kontakt <span className="text-[1.08em] text-[#3f6b49]">oss</span>
           </span>
         }
-        text="Send oss gjerne en e-post her:"
+        
       />
 
       <section className="px-0 py-[72px]">
@@ -89,8 +89,7 @@ function Contact() {
             </h2>
 
             <p className="mt-4 leading-7 font-semibold text-[#244e30]">
-              Denne siden kan senere utvides med kontaktskjema, kart eller mer praktisk
-              informasjon.
+              
             </p>
 
             <a

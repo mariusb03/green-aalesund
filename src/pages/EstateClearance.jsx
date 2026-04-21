@@ -34,8 +34,22 @@ function EstateClearance() {
             </p>
 
             <p className="leading-7 font-semibold text-[#244e30]">
-              !TODO! Mer info
+              Vi vet at slike oppdrag ofte kommer i situasjoner som kan være
+              både praktiske og følelsesmessig krevende. Derfor ønsker vi å møte
+              hver kunde på en trygg, ryddig og respektfull måte, med fokus på
+              god dialog gjennom hele prosessen.
             </p>
+
+            <div className="mt-6 rounded-[22px] border-2 border-[#244e30] bg-[rgba(255,255,255,0.72)] p-[22px] shadow-[0_18px_40px_rgba(38,52,40,0.08)]">
+              <p className="mb-2 text-[0.82rem] font-extrabold uppercase tracking-[0.12em] text-[#5c7e5d]">
+                Pakkepriser
+              </p>
+              <p className="m-0 leading-7 font-medium text-[#3f6b49]">
+                Vi tilbyr også pakkepriser på slike oppdrag. Pris vil kunne
+                variere etter omfang og behov, så ta gjerne kontakt dersom dette
+                kan være aktuelt, så finner vi en løsning som passer.
+              </p>
+            </div>
           </div>
 
           <div className="rounded-[28px] border-2 border-[#244e30] bg-[rgba(255,255,255,0.75)] p-[30px] shadow-[0_24px_60px_rgba(38,52,40,0.08)]">
@@ -48,7 +62,9 @@ function EstateClearance() {
                   Respektfull prosess
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  !TODO! Mer info
+                  Vi legger vekt på en rolig og oversiktlig gjennomføring, der
+                  kunden får tydelig informasjon og god oppfølging fra start til
+                  slutt.
                 </p>
               </div>
             </div>
@@ -62,7 +78,9 @@ function EstateClearance() {
                   Omtanke i hele oppdraget
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  !TODO! Mer info
+                  Arbeidet utføres med hensyn til både mennesker, eiendeler og
+                  miljø, slik at prosessen oppleves så skånsom og ryddig som
+                  mulig.
                 </p>
               </div>
             </div>
@@ -76,7 +94,9 @@ function EstateClearance() {
                   Enkel kontakt
                 </h3>
                 <p className="m-0 leading-7 font-medium text-[#3f6b49]">
-                  !TODO! Mer info
+                  Ta gjerne kontakt for en uforpliktende samtale dersom du
+                  ønsker mer informasjon om hvordan vi kan hjelpe i din
+                  situasjon.
                 </p>
               </div>
             </div>
