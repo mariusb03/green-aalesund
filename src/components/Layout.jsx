@@ -126,10 +126,6 @@ function Layout() {
               Bygget for å gjøre det lettere å handle brukt, donere ting og
               finne riktig hjelp når noe skal ryddes eller tømmes.
             </p>
-
-            <p className="mt-4 leading-7 font-bold text-[#4e5d526b]">
-              Nettside laget av Marius Bringsvor Rusten
-            </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
@@ -200,6 +196,17 @@ function Layout() {
             </div>
           </div>
         </div>
+        <p className="mt-10 text-center leading-7 font-semibold text-[#3e5845a4]">
+          Nettsideinnhold: Green Ålesund, Levert av{" "}
+          <a
+            href="https://www.mariusrusten.no/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold text-[#244e30] no-underline hover:underline"
+          >
+            Marius Bringsvor Rusten
+          </a>
+        </p>
       </footer>
     </>
   );
